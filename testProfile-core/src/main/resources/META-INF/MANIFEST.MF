@@ -1,0 +1,11 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: org.webredirect.smalgyax
+Bundle-Version: 1.0.0
+Bundle-Name: testProfile-core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.webredirect.smalgyax.testprofile-core;singleton=true
+Nuxeo-Component: OSGI-INF/core-types-contrib.xml,OSGI-INF/ecm-types-contrib.xml,
+    OSGI-INF/ui-types-contrib.xml,OSGI-INF/layouts-contrib.xml,
+    OSGI-INF/directories-contrib.xml

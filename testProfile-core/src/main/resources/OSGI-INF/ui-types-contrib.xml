@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<component name="com.courseload.nuxeo.schemadotorg.ecm.types">
+	<require>org.nuxeo.ecm.platform.types</require>
+	<extension point="types" target="org.nuxeo.ecm.platform.types.TypeService">
+		<type id="CreativeWork">
+			<icon>/icons/file.gif</icon>
+			<bigIcon>/icons/file_100.png</bigIcon>
+			<label>CreativeWork</label>
+			<description/>
+			<category>SimpleDocument</category>
+			<default-view>view_documents</default-view>
+			<layouts mode="any">
+				<layout>creative_work</layout>
+			</layouts>
+		</type>
+		<type id="Book">
+			<icon>/icons/file.gif</icon>
+			<bigIcon>/icons/file_100.png</bigIcon>
+			<label>Book</label>
+			<description/>
+			<category>SimpleDocument</category>
+			<default-view>view_documents</default-view>
+			<layouts mode="any">
+				<layout>creative_work</layout>
+			</layouts>
+		</type>
+		<type id="Article">
+			<icon>/icons/file.gif</icon>
+			<bigIcon>/icons/file_100.png</bigIcon>
+			<label>Article</label>
+			<description/>
+			<category>SimpleDocument</category>
+			<default-view>view_documents</default-view>
+			<layouts mode="any">
+				<layout>creative_work</layout>
+			</layouts>
+		</type>
+		<type id="AudioObject">
+			<icon>/icons/audio.png</icon>
+			<bigIcon>/icons/audio_100.png</bigIcon>
+			<label>AudioObject</label>
+			<description/>
+			<category>SimpleDocument</category>
+			<default-view>view_documents</default-view>
+			<layouts mode="any">
+				<layout>creative_work</layout>
+			</layouts>
+		</type>
+		<type id="VideoObject">
+			<icon>/icons/video.png</icon>
+			<bigIcon>/icons/video_100.png</bigIcon>
+			<label>VideoObject</label>
+			<description/>
+			<category>SimpleDocument</category>
+			<default-view>view_documents</default-view>
+			<layouts mode="any">
+				<layout>creative_work</layout>
+			</layouts>
+		</type>
+		<type id="Folder">
+			<subtypes>
+				<type>CreativeWork</type>
+				<type>Book</type>
+				<type>Article</type>
+				<type>AudioObject</type>
+				<type>VideoObject</type>
+			</subtypes>
+		</type>
+		<type id="Workspace">
+			<subtypes>
+				<type>CreativeWork</type>
+				<type>Book</type>
+				<type>Article</type>
+				<type>AudioObject</type>
+				<type>VideoObject</type>
+			</subtypes>
+		</type>
+	</extension>
+</component>

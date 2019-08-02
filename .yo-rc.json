@@ -1,0 +1,13 @@
+{
+  "generator-nuxeo": {
+    "lastRemote": "/home/tburton/.cache/node-yeoman-remote-cache/nuxeo/generator-nuxeo-meta/2.9.0",
+    "promptValues": {
+      "parent_package": "org.webredirect.smalgyax",
+      "parent_artifact": "testProfile",
+      "parent_version": "1.0-SNAPSHOT",
+      "package": "org.webredirect.smalgyax"
+    },
+    "_nuxeo_version": "10.10",
+    "multi": true
+  }
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<xs:schema targetNamespace="http://schema.org/Thing" xmlns:lt="http://courseload.com/nuxeo/listTypes" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:import namespace="http://courseload.com/nuxeo/listTypes" schemaLocation="listTypes.xsd"/>
+	<xs:element name="alternateName" type="lt:textList">
+		<xs:annotation>
+			<xs:documentation>An alias for the item.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="description" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>A short description of the item.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="image" type="xs:anyURI">
+		<xs:annotation>
+			<xs:documentation>URL of an image of the item.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="name" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>The name of the item.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="sameAs" type="xs:anyURI">
+		<xs:annotation>
+			<xs:documentation>URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="url" type="xs:anyURI">
+		<xs:annotation>
+			<xs:documentation>URL of the item.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>
