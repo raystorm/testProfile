@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<xs:schema targetNamespace="http://schema.org/Clip" 
+<xs:schema targetNamespace="http://schema.org/Event" 
            xmlns:lt="http://courseload.com/nuxeo/listTypes" 
            xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<xs:import namespace="http://courseload.com/nuxeo/listTypes" 
@@ -7,7 +7,7 @@
 	<xs:import namespace="http://schema.org/Thing" 
 	           schemaLocation="Thing.xsd"/>
 	<xs:import namespace="http://schema.org/Event"
-			   schemaLocation="Event.xsd"/>
+			     schemaLocation="Event.xsd"/>
     <xs:element name="danceGroups" type="lt:textList" >
 	   <xs:annotation>
 		  <xs:documentation>List of Dance Groups that attended the event</xs:documentation>

@@ -3,10 +3,12 @@
 	<extension point="schema" target="org.nuxeo.ecm.core.schema.TypeService">
 		<schema name="listTypes" src="schema/listTypes.xsd"/>
 		<schema name="Thing" prefix="thing" src="schema/Thing.xsd"/>
-		<!--
 		<schema name="CreativeWork" prefix="creativework" src="schema/CreativeWork.xsd"/>
+		<!--
 		<schema name="Movie" prefix="movie" src="schema/Movie.xsd"/>
+		-->
 		<schema name="MediaObject" prefix="mediaobject" src="schema/MediaObject.xsd"/>
+		<!--
 		<schema name="Blog" prefix="blog" src="schema/Blog.xsd"/>
 		-->
 		<schema name="Book" prefix="book" src="schema/Book.xsd"/>
@@ -30,7 +32,9 @@
 		<schema name="Painting" prefix="painting" src="schema/Painting.xsd"/>
 		<schema name="Comment" prefix="comment" src="schema/Comment.xsd"/>
 		<schema name="Code" prefix="code" src="schema/Code.xsd"/>
+		-->
 		<schema name="Clip" prefix="clip" src="schema/Clip.xsd"/>
+		<!--
 		<schema name="Series" prefix="series" src="schema/Series.xsd"/>
 		<schema name="Recipe" prefix="recipe" src="schema/Recipe.xsd"/>
 		<schema name="Dataset" prefix="dataset" src="schema/Dataset.xsd"/>

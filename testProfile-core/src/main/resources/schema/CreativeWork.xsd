@@ -1,7 +1,11 @@
 <?xml version="1.0" ?>
-<xs:schema targetNamespace="http://schema.org/CreativeWork" xmlns:lt="http://courseload.com/nuxeo/listTypes" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<xs:import namespace="http://courseload.com/nuxeo/listTypes" schemaLocation="listTypes.xsd"/>
-	<xs:import namespace="http://schema.org/Thing" schemaLocation="Thing.xsd"/>
+<xs:schema targetNamespace="http://schema.org/CreativeWork" 
+           xmlns:lt="http://courseload.com/nuxeo/listTypes" 
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:import namespace="http://courseload.com/nuxeo/listTypes" 
+	           schemaLocation="listTypes.xsd"/>
+	<xs:import namespace="http://schema.org/Thing" 
+	           schemaLocation="Thing.xsd"/>
 	<xs:element name="about" type="xs:string">
 		<xs:annotation>
 			<xs:documentation>The subject matter of the content.</xs:documentation>
@@ -9,33 +13,52 @@
 	</xs:element>
 	<xs:element name="accessibilityAPI" type="lt:textList">
 		<xs:annotation>
-			<xs:documentation>Indicates that the resource is compatible with the referenced accessibility API (WebSchemas wiki lists possible values).
-     </xs:documentation>
+			<xs:documentation>
+			   Indicates that the resource is compatible with 
+			   the referenced accessibility API 
+			   (WebSchemas wiki lists possible values).
+         </xs:documentation>
 		</xs:annotation>
 	</xs:element>
 	<xs:element name="accessibilityControl" type="lt:textList">
 		<xs:annotation>
-			<xs:documentation>Identifies input methods that are sufficient to fully control the described resource (WebSchemas wiki lists possible values).</xs:documentation>
+			<xs:documentation>
+			    Identifies input methods that are sufficient to fully control the 
+			    described resource (WebSchemas wiki lists possible values).
+			</xs:documentation>
 		</xs:annotation>
 	</xs:element>
 	<xs:element name="accessibilityFeature" type="lt:textList">
 		<xs:annotation>
-			<xs:documentation>Content features of the resource, such as accessible media, alternatives and supported enhancements for accessibility (WebSchemas wiki lists possible values).</xs:documentation>
+			<xs:documentation>
+			   Content features of the resource, such as accessible media, 
+			   alternatives and supported enhancements for accessibility 
+			   (WebSchemas wiki lists possible values).
+		   </xs:documentation>
 		</xs:annotation>
 	</xs:element>
 	<xs:element name="accessibilityHazard" type="lt:textList">
 		<xs:annotation>
-			<xs:documentation>A characteristic of the described resource that is physiologically dangerous to some users. Related to WCAG 2.0 guideline 2.3. (WebSchemas wiki lists possible values)</xs:documentation>
+			<xs:documentation>
+			    A characteristic of the described resource that is 
+			    physiologically dangerous to some users. 
+			    Related to WCAG 2.0 guideline 2.3. 
+			    (WebSchemas wiki lists possible values)
+			</xs:documentation>
 		</xs:annotation>
 	</xs:element>
 	<xs:element name="accountablePerson" type="xs:string">
 		<xs:annotation>
-			<xs:documentation>Specifies the Person that is legally accountable for the CreativeWork.</xs:documentation>
+			<xs:documentation>
+			    Specifies the Person that is legally accountable for the CreativeWork.
+			</xs:documentation>
 		</xs:annotation>
 	</xs:element>
 	<xs:element name="aggregateRating" type="xs:string">
 		<xs:annotation>
-			<xs:documentation>The overall rating, based on a collection of reviews or ratings, of the item.</xs:documentation>
+			<xs:documentation>
+			    The overall rating, based on a collection of reviews or ratings, of the item.
+			</xs:documentation>
 		</xs:annotation>
 	</xs:element>
 	<xs:element name="alternativeHeadline" type="xs:string">
@@ -45,12 +68,18 @@
 	</xs:element>
 	<xs:element name="associatedMedia" type="xs:string">
 		<xs:annotation>
-			<xs:documentation>The media objects that encode this creative work. This property is a synonym for encodings.</xs:documentation>
+			<xs:documentation>
+			    The media objects that encode this creative work. 
+			    This property is a synonym for encodings.
+			</xs:documentation>
 		</xs:annotation>
 	</xs:element>
 	<xs:element name="audience" type="xs:string">
 		<xs:annotation>
-			<xs:documentation>The intended audience of the item, i.e. the group for whom the item was created.</xs:documentation>
+			<xs:documentation>
+			    The intended audience of the item, 
+			    i.e. the group for whom the item was created.
+			</xs:documentation>
 		</xs:annotation>
 	</xs:element>
 	<xs:element name="audio" type="xs:string">
@@ -60,12 +89,19 @@
 	</xs:element>
 	<xs:element name="author" type="lt:textList">
 		<xs:annotation>
-			<xs:documentation>The author of this content. Please note that author is special in that HTML 5 provides a special mechanism for indicating authorship via the rel tag. That is equivalent to this and may be used interchangeably.</xs:documentation>
+			<xs:documentation>
+			    The author of this content. 
+			    Please note that author is special in that HTML 5 provides 
+			    a special mechanism for indicating authorship via the rel tag. 
+			    That is equivalent to this and may be used interchangeably.
+			</xs:documentation>
 		</xs:annotation>
 	</xs:element>
 	<xs:element name="award" type="lt:textList">
 		<xs:annotation>
-			<xs:documentation>An award won by this person or for this creative work.</xs:documentation>
+			<xs:documentation>
+			    An award won by this person or for this creative work.
+			</xs:documentation>
 		</xs:annotation>
 	</xs:element>
 	<xs:element name="citation" type="lt:textList">

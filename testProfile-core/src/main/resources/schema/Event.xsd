@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<xs:schema targetNamespace="http://schema.org/Clip" 
+<xs:schema targetNamespace="http://schema.org/Event" 
            xmlns:lt="http://courseload.com/nuxeo/listTypes" 
            xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<xs:import namespace="http://courseload.com/nuxeo/listTypes" 
@@ -39,6 +39,7 @@
 			</xs:documentation>
 	   </xs:annotation>
 	</xs:element>
+	<!-- 
 	<xs:element name="primaryLanguage" type="xs:language" >
 	   <xs:annotation>
 			<xs:documentation>
@@ -55,6 +56,7 @@
 			</xs:documentation>
 	   </xs:annotation>
 	</xs:element>
+	-->
 	<xs:element name="location" type="xs:string" >
 	   <xs:annotation>
 			<xs:documentation>

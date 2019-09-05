@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <component name="com.courseload.schemadotorg.layouts">
-  <extension target="org.nuxeo.ecm.platform.forms.layout.WebLayoutManager"
-             point="layouts">
+  <extension point="layouts" 
+             target="org.nuxeo.ecm.platform.forms.layout.WebLayoutManager" >
     <layout name="creative_work">
 
       <templates>

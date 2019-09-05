@@ -1,19 +1,19 @@
 <?xml version="1.0" ?>
 <component name="com.courseload.nuxeo.schemadotorg.types">
-	<require>com.courseload.nuxeo.schemadotorg.coreTypes</require>
+	<!-- <require>com.courseload.nuxeo.schemadotorg.coreTypes</require> -->
 	<extension point="doctype" target="org.nuxeo.ecm.core.schema.TypeService">
 		<doctype extends="File" name="Thing">
 			<schema name="common"/>
 			<schema name="dublincore"/>
 			<schema name="Thing"/>
 		</doctype>
-		<!-- 
 		<doctype extends="File" name="CreativeWork">
 			<schema name="common"/>
 			<schema name="dublincore"/>
 			<schema name="Thing"/>
 			<schema name="CreativeWork"/>
 		</doctype>
+		<!-- 
 		<doctype extends="File" name="Movie">
 			<schema name="common"/>
 			<schema name="dublincore"/>
@@ -169,6 +169,7 @@
 			<schema name="CreativeWork"/>
 			<schema name="Code"/>
 		</doctype>
+		-->
 		<doctype extends="File" name="Clip">
 			<schema name="common"/>
 			<schema name="dublincore"/>
@@ -176,6 +177,7 @@
 			<schema name="CreativeWork"/>
 			<schema name="Clip"/>
 		</doctype>
+		<!--		
 		<doctype extends="File" name="Series">
 			<schema name="common"/>
 			<schema name="dublincore"/>
