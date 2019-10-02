@@ -39,6 +39,28 @@
 			</xs:documentation>
 	   </xs:annotation>
 	</xs:element>
+	<xs:element name="primaryLanguage" type="xs:string" >
+	   <xs:annotation>
+			<xs:documentation>
+			    Primary Language in se at the event
+			</xs:documentation>
+	   </xs:annotation>
+	</xs:element>
+	<xs:element name="secondaryLanguage" type="xs:string" >
+	   <xs:annotation>
+			<xs:documentation>
+			    Alternate Language in use at the event
+			</xs:documentation>
+	   </xs:annotation>
+	</xs:element>
+	<xs:element name="location" type="xs:string" >
+	   <xs:annotation>
+			<xs:documentation>
+			    A person or organization that supports (sponsors) something 
+			    through some kind of contribution.
+			</xs:documentation>
+	   </xs:annotation>
+	</xs:element>
 	<!-- 
 	<xs:element name="primaryLanguage" type="xs:language" >
 	   <xs:annotation>
@@ -48,31 +70,7 @@
 			</xs:documentation>
 	   </xs:annotation>
 	</xs:element>
-	<xs:element name="secondaryLanguage" type="xs:language" >
-	   <xs:annotation>
-			<xs:documentation>
-			    A person or organization that supports (sponsors) something 
-			    through some kind of contribution.
-			</xs:documentation>
-	   </xs:annotation>
-	</xs:element>
 	-->
-	<xs:element name="location" type="xs:string" >
-	   <xs:annotation>
-			<xs:documentation>
-			    A person or organization that supports (sponsors) something 
-			    through some kind of contribution.
-			</xs:documentation>
-	   </xs:annotation>
-	</xs:element>
-	<xs:element name="primaryLanguage" type="xs:language" >
-	   <xs:annotation>
-			<xs:documentation>
-			    A person or organization that supports (sponsors) something 
-			    through some kind of contribution.
-			</xs:documentation>
-	   </xs:annotation>
-	</xs:element>
 	<xs:element name="organizer" type="xs:string" >
 	   <xs:annotation>
 			<xs:documentation>

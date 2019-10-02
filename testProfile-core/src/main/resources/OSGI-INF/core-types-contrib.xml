@@ -22,9 +22,13 @@
 		<schema name="Article" prefix="article" src="schema/Article.xsd"/>
 		<schema name="WebPageElement" prefix="webpageelement" src="schema/WebPageElement.xsd"/>
 		<schema name="Review" prefix="review" src="schema/Review.xsd"/>
+		-->
 		<schema name="Photograph" prefix="photograph" src="schema/Photograph.xsd"/>
+		<!--
 		<schema name="Episode" prefix="episode" src="schema/Episode.xsd"/>
+		-->
 		<schema name="WebPage" prefix="webpage" src="schema/WebPage.xsd"/>
+		<!-- 
 		<schema name="MusicPlaylist" prefix="musicplaylist" src="schema/MusicPlaylist.xsd"/>
 		-->
 		<schema name="ItemList" prefix="itemlist" src="schema/ItemList.xsd"/>

@@ -117,7 +117,7 @@
 			<schema name="CreativeWork"/>
 			<schema name="Photograph"/>
 		</doctype>
-		<!-- 
+		<!--
 		<doctype extends="File" name="Episode">
 			<schema name="common"/>
 			<schema name="dublincore"/>
@@ -125,6 +125,7 @@
 			<schema name="CreativeWork"/>
 			<schema name="Episode"/>
 		</doctype>
+		-->
 		<doctype extends="File" name="WebPage">
 			<schema name="common"/>
 			<schema name="dublincore"/>
@@ -132,6 +133,7 @@
 			<schema name="CreativeWork"/>
 			<schema name="WebPage"/>
 		</doctype>
+		<!--
 		<doctype extends="File" name="MusicPlaylist">
 			<schema name="common"/>
 			<schema name="dublincore"/>
